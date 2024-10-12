@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<!-- 
+  <script>
+
+
+function sum(a,b){
+    console.log(a+b);
+    
+}
+
+const s=(a,b,callback)=>{
+  callback(a,b)
+    
+}
+s(5,6,sum)
+  </script> -->
+    <script>
+
+
+      function sum(){
+          console.log("success");
+          
+      }
+      
+      const s=(callback)=>{
+        callback()
+          
+      }
+      s(sum)
+        </script>
+
+        <script>
+
+          const d=()=>{
+            console.log("what");
+            
+          }
+
+          const b=(good)=>{
+            good()
+          }
+
+          b(d)
+        </script>
+
+        --------------------------------------------------------------------
+        <script>
+          const free=(callback)=>{
+            console.log("went t0 mall");
+            callback()
+          }
+          const tea=(callback)=>{
+            console.log("buy iphone from image ");
+            callback()
+          }
+          const fcee=(callback)=>{
+            console.log("paid 40000");
+            callback()
+          }
+          const lee=(callback)=>{
+            console.log("break old data ");
+        
+          }
+
+          free(tea)
+        </script>
+</body>
+</html>
+
