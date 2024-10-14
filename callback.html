@@ -54,7 +54,7 @@ s(5,6,sum)
         --------------------------------------------------------------------
         <script>
           const free=(callback)=>{
-            console.log("went t0 mall");
+            console.log("went to  mall");
             callback()
           }
           const tea=(callback)=>{
@@ -70,7 +70,13 @@ s(5,6,sum)
         
           }
 
-          free(tea)
+          free(()=>{
+            tea(()=>{
+            fcee(()=>{
+              lee()
+            })
+          })
+          })
         </script>
 </body>
 </html>
